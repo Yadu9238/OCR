@@ -92,5 +92,6 @@ for (startX,startY,endX,endY) in boxes:
 
     cv2.rectangle(im2,(startX,startY),(endX,endY),(0,255,0),2)
 
-cv2.imshow("text dete",im2)
+cv2.imshow("Text Detected",im2)
+cv2.imwrite('output/output2.jpg',im2)
 cv2.waitKey(0)
