@@ -37,3 +37,6 @@ As of now, it does detect text but not completely.As seen in the below examples
 
 ## To-do
 Implement character-recognition from the detected text,using Tessaract or other OCR engine
+
+## Reference
+[Pyimagesearch Blog](https://www.pyimagesearch.com/2018/09/17/opencv-ocr-and-text-recognition-with-tesseract/)
