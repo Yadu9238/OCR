@@ -17,7 +17,7 @@ You need:
 
 - Download and place the .pb file as the same folder as this
 - The options provided are:
-'''
+```
 usage: ocr.py [-h] [-i IMAGE] [-east EAST] [-c MIN_CONFIDENCE] [-w WIDTH] [-e HEIGHT]
 
 optional arguments:
@@ -28,11 +28,12 @@ optional arguments:
   -w WIDTH, --width WIDTH
   -e HEIGHT, --height HEIGHT
 
-'''
+```
 
-## limitations
+## Limitations
 As of now, it does detect text but not completely.As seen in the below examples
-![](output/output1.jpg) ![] (output/output2.jpg)
+![](output/output1.jpg)
+![](output/output2.jpg)
 
 ## To-do
 Implement character-recognition from the detected text,using Tessaract or other OCR engine
